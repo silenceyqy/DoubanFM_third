@@ -9,5 +9,5 @@
 #import <UIKit/UIKit.h>
 #import "AppDelegate.h"
 @interface SidebarController : UITabBarController
-
+@property(nonatomic,copy)NSString*name;
 @end
