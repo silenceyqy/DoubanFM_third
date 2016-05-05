@@ -14,6 +14,7 @@
 		0AADAE2A1CDB6BBC00CD88E6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0AADAE291CDB6BBC00CD88E6 /* Assets.xcassets */; };
 		0AADAE2D1CDB6BBC00CD88E6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0AADAE2B1CDB6BBC00CD88E6 /* LaunchScreen.storyboard */; };
 		1C2F38BF64CA213271F867E1 /* libPods-DoubanFM.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E55F7C3284195B6AFBB69777 /* libPods-DoubanFM.a */; };
+		62F5ECD11CDB76EB00318691 /* SidebarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 62F5ECD01CDB76EB00318691 /* SidebarController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,8 @@
 		0AADAE2E1CDB6BBC00CD88E6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		52CBE73DF2656DE1A793AD39 /* Pods-DoubanFM.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DoubanFM.release.xcconfig"; path = "Pods/Target Support Files/Pods-DoubanFM/Pods-DoubanFM.release.xcconfig"; sourceTree = "<group>"; };
 		54FF946EC5C45552978FF30D /* Pods-DoubanFM.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DoubanFM.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DoubanFM/Pods-DoubanFM.debug.xcconfig"; sourceTree = "<group>"; };
+		62F5ECCF1CDB76EB00318691 /* SidebarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SidebarController.h; sourceTree = "<group>"; };
+		62F5ECD01CDB76EB00318691 /* SidebarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SidebarController.m; sourceTree = "<group>"; };
 		E55F7C3284195B6AFBB69777 /* libPods-DoubanFM.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DoubanFM.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -69,6 +72,8 @@
 				0AADAE211CDB6BBC00CD88E6 /* AppDelegate.m */,
 				0AADAE231CDB6BBC00CD88E6 /* ViewController.h */,
 				0AADAE241CDB6BBC00CD88E6 /* ViewController.m */,
+				62F5ECCF1CDB76EB00318691 /* SidebarController.h */,
+				62F5ECD01CDB76EB00318691 /* SidebarController.m */,
 				0AADAE261CDB6BBC00CD88E6 /* Main.storyboard */,
 				0AADAE291CDB6BBC00CD88E6 /* Assets.xcassets */,
 				0AADAE2B1CDB6BBC00CD88E6 /* LaunchScreen.storyboard */,
@@ -225,6 +230,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				62F5ECD11CDB76EB00318691 /* SidebarController.m in Sources */,
 				0AADAE251CDB6BBC00CD88E6 /* ViewController.m in Sources */,
 				0AADAE221CDB6BBC00CD88E6 /* AppDelegate.m in Sources */,
 				0AADAE1F1CDB6BBC00CD88E6 /* main.m in Sources */,
